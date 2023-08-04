@@ -1,0 +1,33 @@
+.about-brands {
+    display: flex;
+    background-color: #F7F7FB;
+    border-radius: 40px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container-about-brands {
+    width: 1144px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    gap: 40px;
+}
+
+#brands {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 49px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-text {
+    font-size: 15px;
+    line-height: 18px;
+}

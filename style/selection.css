@@ -1,0 +1,170 @@
+#selection-category {
+    background-color: #F7F7FB;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 148px;
+    gap: 25px;
+}
+
+.container-selection {
+    width: 1144px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.container-choice {
+    padding: 25px 130px;
+}
+
+.container-choice-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.choice-selection {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d2d3d3;
+}
+
+/* Пол */
+
+.selection-gender {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.selection-text {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #8B8C8C;
+}
+
+.input-gender {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-gender {
+    display: flex;
+}
+
+.container-gender input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #8B8C8C;
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+}
+
+.container-gender label {
+    font-weight: 600;
+    color: #424242;
+}
+
+/* Возраст */
+
+.selection-age {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list-selection {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.element-list {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #00A0E3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    color: #424242;
+}
+
+.color-elevent-list {
+    background-color: #00A0E3;
+    color:#fff
+}
+
+.element-list:active {
+    background-color: #00A0E3;
+    color:#fff
+}
+
+.element-list:hover {
+    background-color: #00A0E3;
+    color:#fff
+}
+
+
+/* Статус */
+
+.selection-status {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Кнопка подбора */
+
+.btn-selection {
+    width: 221px;
+    height: 59px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 59px;
+    text-align: center;
+    color: #fff;
+    background-color: #00A0E3;
+    border: none;
+    border-radius: 40px;
+}
+
+/* Категории */
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 148px 25px;
+    gap: 25px;
+}
+
+.category-imgs {
+    width: 1144px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.category-img {
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.category-img:hover {
+    transform: scale(1.04);
+}
